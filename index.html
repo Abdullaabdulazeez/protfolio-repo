@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/312715cfa4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <h1>Abdulla</h1>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>MERN Stack Developer</p>
+                <h1>
+                    Hi, I am <span>Abdulla</span><br>From Kerala
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./my-img.jpg" alt="Profile Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Dynamic Full Stack Web Developer with expertise in the MERN stack [MongoDB, Express.js, React.js, Node.js] and a knack for seamless frontend-backend integration. Possessing a deep understanding of both client-side and server-side technologies, I excel at creating robust, scalable, and high-performance web applications. My passion for learning new technologies and adapting to the ever-evolving tech landscape has enabled me to master various tools and frameworks, ensuring optimal solutions for diverse project requirements.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" id="skills-tab">Skills</p>
+                        <p class="tab-links" id="education-tab">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills-content">
+                        <ul>
+                            <li><span>JavaScript</span></li>
+                            <li><span>Express.js</span></li>
+                            <li><span>Node.js</span></li>
+                            <li><span>React</span></li>
+                            <li><span>MongoDB</span></li>
+                            <li><span>CSS3</span></li>
+                            <li><span>HTML5</span></li>
+                            <li><span>Git</span></li>
+                            <li><span>Redux</span></li>
+                            <li><span>Responsive Web Design</span></li>
+                            <li><span>Java</span></li>
+                            <li><span>TypeScript</span></li>
+                            <li><span>SQL</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education-content">
+                        <ul>
+                            <li><span>December 2023 - July 2024: Masai School (Full Stack Developer)</span></li>
+                            <li><span>August 2020 - April 2023: Sir Syed Institute of Technical Studies Kannur (BSc Computer Science)</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./pay-pal.png" alt="PayPal Pioneers Project">
+                    <div class="layer">
+                        <h3>PayPal Pioneers</h3>
+                        <p>Developed a fully functional clone of a wine selling e-commerce website using HTML, CSS, JavaScript, and React...</p>
+                        <a href="https://pay-pal-pioneers-068.vercel.app/"><i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./ghagara.png" alt="Ghagara Compilation Project">
+                    <div class="layer">
+                        <h3>Ghagara Compilation</h3>
+                        <p>Developed a user-friendly web application for an online fashion retailer using JavaScript, HTML5, and CSS3...</p>
+                        <a href="https://6641c4a6f60fc17bdb89b7db--cheery-genie-3d5d23.netlify.app/"><i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./dmart.png" alt="Syntax Saadhana Project">
+                    <div class="layer">
+                        <h3>Syntax Saadhana</h3>
+                        <p>Collaborated with a team of 5 members to understand and translate project requirements into functional web components...</p>
+                        <a href="https://syntax-saadhana-2345.netlify.app/"><i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="project.html" class="btn">See More</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> abdulla102001@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8547529025</p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/abdulla-abdul-azeez/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Abdullaabdulazeez"><i class="fa-brands fa-github"></i></a>
+                        <a href="./Cv final print.pdf" class="btn btn2" download>Download CV</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Enter Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+    <div id="response-message" style="display:none; margin-top: 10px; color: green;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzg4R-lOhy3kDtFQDL73HMPcZ4XzOySXFrc4x5vZcD0FH9O0CFS8wJ9kMQVgNRdC7wz/exec'
+const form = document.forms['submit-to-google-sheet']
+const responseMessage = document.getElementById('response-message');
+
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+      console.log('Success!', response);
+      // Show the thank you message
+      responseMessage.textContent = 'Thank you for your message!';
+      responseMessage.style.display = 'block';
+
+      // Hide the message after 3 seconds
+      setTimeout(() => {
+        responseMessage.style.display = 'none';
+      }, 3000);
+    })
+    .catch(error => {
+      console.error('Error!', error.message);
+      // Optionally, you could also display an error message here
+    });
+});
+
+      </script>
+</body>
+</html>

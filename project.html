@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0f0f0f;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #1e1e1e;
+            padding: 30px 0;
+            text-align: center;
+            color: #ff004f;
+            border-bottom: 5px solid #ff004f;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            font-weight: 700;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        .project-card {
+            background: #1a1a1a;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+        }
+        .project-card h2 {
+            font-size: 2.4em;
+            color: #ff004f;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .tech-stack {
+            font-size: 18px;
+            color: #ff004f;
+            margin-bottom: 15px;
+            display: inline-block;
+            background: rgba(255, 0, 79, 0.1);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .project-card p {
+            color: #d0d0d0;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        .btn-group {
+            display: flex;
+            gap: 15px;
+        }
+        .btn {
+            background: linear-gradient(45deg, #ff004f, #d0004b);
+            color: #fff;
+            border: none;
+            padding: 14px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            text-align: center;
+            transition: background 0.3s, transform 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+        .btn:hover {
+            background: linear-gradient(45deg, #d0004b, #ff004f);
+            transform: scale(1.05);
+        }
+        .btn.github {
+            background: #333;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+        }
+        .btn.github:hover {
+            background: #222;
+        }
+        .btn.deployed {
+            background: #008cba;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+        }
+        .btn.deployed:hover {
+            background: #005f6b;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+            .project-card {
+                padding: 15px;
+            }
+            .btn {
+                font-size: 14px;
+                padding: 12px;
+            }
+        }
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .project-card h2 {
+                font-size: 1.8em;
+            }
+            .btn {
+                font-size: 12px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Projects</h1>
+    </header>
+    <div class="container">
+        <div class="project-card">
+            <h2>PayPal Pioneers</h2>
+            <div class="tech-stack">React | HTML | CSS3 | JavaScript | JSON Server</div>
+            <p>Developed a fully functional clone of a wine-selling e-commerce website using HTML, CSS, JavaScript, and React. Created a responsive, user-friendly interface with a dynamic component-based architecture. Integrated key e-commerce functionalities such as product listings, shopping cart, user authentication, and order management. Demonstrated proficiency in frontend development and creating comprehensive web applications.</p>
+            <div class="btn-group">
+                <a href="https://github.com/Adit704/PayPal-Pioneers_068" class="btn github" target="_blank">GitHub</a>
+                <a href="https://pay-pal-pioneers-068.vercel.app/" class="btn deployed" target="_blank">View Live</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <h2>Syntax-Saadhana-2345</h2>
+            <div class="tech-stack">HTML | Responsive Web Design | CSS3</div>
+            <p>Collaborated with a large team of 5 members to understand and translate project requirements into functional web components. Designed and developed responsive web pages using HTML5 and CSS3 to ensure consistent user experience across devices. Applied best practices in responsive web design to create layouts that adapt seamlessly to various screen sizes. Utilized Git version control for efficient collaboration and code management among team members. Contributed to maintaining code quality and consistency through regular code reviews and adherence to established coding standards.</p>
+            <div class="btn-group">
+                <a href="https://github.com/Abdullaabdulazeez/Syntax-Saadhana-2345" class="btn github" target="_blank">GitHub</a>
+                <a href="https://syntax-saadhana-2345.netlify.app/" class="btn deployed" target="_blank">View Live</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <h2>Ghanghara-Compilation-013</h2>
+            <div class="tech-stack">JavaScript | HTML5</div>
+            <p>Developed a responsive and user-friendly web application for an online fashion retailer using JavaScript, HTML5, and CSS3. Designed and implemented a seamless login and signup process for personalized user experiences. Created a functional shopping cart feature for better user interaction and product management. Integrated a search bar for easy and quick product discovery. Collaborated with a team of five, contributing significantly to both frontend and backend development efforts.</p>
+            <div class="btn-group">
+                <a href="https://6641c4a6f60fc17bdb89b7db--cheery-genie-3d5d23.netlify.app/" class="btn github" target="_blank">GitHub</a>
+                <a href="https://github.com/vishalkr-1/Ghaghara-Compilation-013" class="btn deployed" target="_blank">View Live</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
