@@ -68,8 +68,41 @@ nav ul li a:hover::after {
     color: #ff004f;
 }
 #about {
-    padding: 80px 0;
-    color: #ababab;
+    padding: 50px 0;
+}
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.about-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.about-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.about-img {
+    flex: 1;
+    padding: 20px;
+}
+.about-img img {
+    width: 100%;
+    border-radius: 15px;
+    max-width: 500px; /* Adjust the max-width as needed */
 }
 .row {
     display: flex;
